@@ -1,0 +1,36 @@
+body {
+  background-image: url('green.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #9CC2A6;
+  color: black;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button4 {border-radius: 12px;}
+
